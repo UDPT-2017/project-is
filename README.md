@@ -5,7 +5,7 @@
 Thành viên:
 * [ ] **MSSV1** Tên sinh viên 1 (tên tài khoản github)
 * [x] **1412316** Đặng Nhật Minh (DangNhatMinh96)
-* [ ] **MSSV3** Tên sinh viên 3 (tên tài khoản github)
+* [x] **1412282** Nguyễn Hoàng Lân (NguyenHoangLan)
 
 URL: **URL hosting của bài tập**
 
