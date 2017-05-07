@@ -3,7 +3,7 @@
 **Name of your app** là repository cho đồ án nhóm. Nhóm tối đa 4 thành viên.
 
 Thành viên:
-* [ ] **MSSV1** Tên sinh viên 1 (tên tài khoản github)
+* [x] **1412269** Hà Mạnh Kiệt (KietHa)
 * [x] **1412316** Đặng Nhật Minh (DangNhatMinh96)
 * [x] **1412282** Nguyễn Hoàng Lân (NguyenHoangLan)
 
