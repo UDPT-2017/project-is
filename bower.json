@@ -1,0 +1,20 @@
+{
+  "name": "project_is_team",
+  "description": "do an cuoi ki mon ung dung phan tan",
+  "main": "index.js",
+  "authors": [
+    "Kiet Ha"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/UDPT-2017/project-is",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
