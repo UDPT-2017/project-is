@@ -1,0 +1,22 @@
+{
+  "name": "project_is_team",
+  "version": "0.0.1",
+  "description": "do an cuoi ki mon ung dung phan tan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UDPT-2017/project-is.git"
+  },
+  "author": "Kiet Ha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UDPT-2017/project-is/issues"
+  },
+  "homepage": "https://github.com/UDPT-2017/project-is#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
