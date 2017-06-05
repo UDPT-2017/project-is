@@ -1,6 +1,30 @@
-body { padding-top: 70px; }
+body {
+  padding-top: 70px;
+}
 
-.bg-lightgray
-{
-    background-color:LightGray;
+.bg-lightgray {
+  background-color: LightGray;
+}
+
+.image-home {
+  width: 100%;
+  height: 100%;
+}
+
+.image-home-form {
+  position: relative;
+}
+
+.content-on-image {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 100%;
+  color: #FFFAFA;
+}
+
+.form-on-image {
+  width: 70%;
+  margin: auto;
+  margin-top: 40px;
 }

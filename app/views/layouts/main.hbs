@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>{{title}}</title>
   <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap-datetimepicker.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -20,6 +21,22 @@
 
   <script src="components/jquery/dist/jquery.js"></script>
   <script src="components/bootstrap/dist/js/bootstrap.js"></script>
+
+  <script src="js/bootstrap-datetimepicker.js"></script>
+  <script src="js/bootstrap-datetimepicker.fr.js"></script>
+  <script type="text/javascript">
+    $('.form_date').datetimepicker({
+      language: 'fr',
+      weekStart: 1,
+      todayBtn: 1,
+      autoclose: 1,
+      todayHighlight: 1,
+      startView: 2,
+      minView: 2,
+      forceParse: 0
+    });
+  </script>
+
 </body>
 
 </html>
