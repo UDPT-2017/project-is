@@ -13,6 +13,7 @@ body {
 
 .image-home-form {
   position: relative;
+  margin-bottom: 30px;
 }
 
 .content-on-image {
@@ -27,4 +28,52 @@ body {
   width: 70%;
   margin: auto;
   margin-top: 40px;
+}
+
+.featured_title {
+  color: #fff;
+  font-size: 19px;
+  margin: 0;
+  padding: 9px 10px;
+  width: 100%
+}
+
+.single_widget {
+  padding: 20px 0 10px;
+  width: 100%;
+  border-left: 1px solid #e3e3e3;
+  border-right: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+  overflow: hidden;
+  margin-bottom: 10px;
+  height: 250px;
+}
+
+figure {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  cursor: pointer
+}
+
+figure.effect-lily img {
+  opacity: 0.7;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transition: width 2s height 2s;
+  transition: width 2s height 2s;
+  width: 80%;
+  height: 100%
+}
+
+figure.effect-lily a:hover img {
+  opacity: 1;
+  width: 100%;
+}
+
+figcaption a {
+  display: block;
+  padding: 15px 15px 0px;
+  font-size: 16px;
+  position: relative;
 }
