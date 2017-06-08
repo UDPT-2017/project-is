@@ -7,26 +7,30 @@ body {
 }
 
 .image-home {
-  width: 100%;
-  height: 100%;
-}
-
-.image-home-form {
-  position: relative;
   margin-bottom: 30px;
+  background-image: url(/images/image1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 100%;
+  height: auto;
 }
 
 .content-on-image {
-  position: absolute;
-  left: 0;
-  top: 30%;
-  width: 100%;
   color: #FFFAFA;
+  margin: auto;
+  width: 96%;
+}
+
+.content-on-image h2 {
+  font-weight: 600;
+  font-size: 50px;
+  text-align: center;
 }
 
 .form-on-image {
-  width: 70%;
-  margin: auto;
   margin-top: 40px;
 }
 
