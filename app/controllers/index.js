@@ -1,4 +1,5 @@
 
 module.exports = {
-  home: require('./homeController')
+  home: require('./homeController'),
+  khachsan: require('./khachsanController')
 };

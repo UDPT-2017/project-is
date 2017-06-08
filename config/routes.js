@@ -7,5 +7,9 @@ module.exports = function(app) {
   var homeRouter = Router()
     .get('/', controllers.home.index);
 
-    app.use('/', homeRouter);
+  var khachsanRouter = Router()
+    .get('/', controllers.khachsan.index);
+
+  app.use('/', homeRouter);
+  app.use('/khachsan', khachsanRouter);
 };
