@@ -19,6 +19,7 @@
   "homepage": "https://github.com/UDPT-2017/project-is#readme",
   "dependencies": {
     "express": "^4.15.3",
-    "express-handlebars": "^3.0.0"
+    "express-handlebars": "^3.0.0",
+    "pg": "^6.2.3"
   }
 }

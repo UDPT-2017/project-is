@@ -18,8 +18,11 @@ body {
   height: auto;
 }
 
-.content-on-image {
+.content-on-image h2, label {
   color: #FFFAFA;
+}
+
+.content-on-image {
   margin: auto;
   width: 96%;
 }
@@ -32,6 +35,10 @@ body {
 
 .form-on-image {
   margin-top: 40px;
+}
+
+.btn-search {
+  margin-top: 50px;
 }
 
 .featured_title {
