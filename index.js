@@ -1,5 +1,7 @@
 const express = require('express');
 const app = express();
+var server = require("http").Server(app);
+var io = require("socket.io")(server);
 
 require('./config')(app);
 
@@ -7,10 +9,9 @@ app.listen(3000, function() {
   console.log('Example app listening on port 3000!');
 });
 
-app.engine('hbs', exphbs());
 
-var server = require("http").Server(app);
-var io = require("socket.io")(server);
+
+
 
 
 var mangUsers=[];
