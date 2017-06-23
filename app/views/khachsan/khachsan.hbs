@@ -27,3 +27,30 @@
     </div>
   </div>
 </div>
+
+<input class="typeahead"></input>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    // Instantiate the Bloodhound suggestion engine
+    var countries = new Bloodhound({
+      datumTokenizer: Bloodhound.tokenizers.obj.whitespace('tenks'),
+      queryTokenizer: Bloodhound.tokenizers.whitespace,
+      prefetch: {
+        url: '../data/countries.json',
+        cache: false
+      }
+    });
+
+    // Initialize the Bloodhound suggestion engine
+    countries.initialize();
+
+    // Instantiate the Typeahead UI
+    $('.typeahead').typeahead(null, {
+      name: 'aa-a',
+      display: 'tenks',
+      source: countries.ttAdapter()
+    });
+  });
+</script>

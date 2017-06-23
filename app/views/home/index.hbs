@@ -3,11 +3,13 @@
     <div class="image-home">
       <div class="content-on-image">
         <h2>Tìm và đặt khách sạn giá tốt nhất</h2>
-        <form class="form-on-image">
+        <form class="form-on-image" method="post" action="timkiem">
           <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6">
               <label style="font-weight: 400; font-size: 20px">Tìm nhanh khách sạn</label>
-              <input type="text" class="form-control" placeholder="Nhập tên thành phố, tên khách sạn,...">
+              <div id="multiple-datasets">
+                <input type="text" class="form-control typeahead" name="keyword" placeholder="Nhập tên thành phố, tên khách sạn,...">
+              </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3">
               <div class="form-group">
@@ -95,4 +97,49 @@
         $("figcaption").show();
       });
   });
+</script>
+
+<script>
+  $(document).ready(function() {
+  var hotelname = new Bloodhound({
+    datumTokenizer: Bloodhound.tokenizers.obj.whitespace('tenks'),
+    queryTokenizer: Bloodhound.tokenizers.whitespace,
+    remote: {
+      url: '/searchhotel?key=%QUERY',
+      wildcard: '%QUERY'
+    }
+  });
+
+  var cityname = new Bloodhound({
+    datumTokenizer: Bloodhound.tokenizers.obj.whitespace('tentp'),
+    queryTokenizer: Bloodhound.tokenizers.whitespace,
+    remote: {
+      url: '/searchcity?key=%QUERY',
+      wildcard: '%QUERY'
+    }
+  });
+
+  hotelname.initialize();
+  cityname.initialize();
+
+  $('#multiple-datasets .typeahead').typeahead({
+    highlight: true
+  },
+  {
+    name: 'hotel-name',
+    display: 'tenks',
+    source: hotelname,
+    templates: {
+      header: '<h3 class="league-name">Khách sạn</h3>'
+    }
+  },
+  {
+    name: 'city-name',
+    display: 'tentp',
+    source: cityname,
+    templates: {
+      header: '<h3 class="league-name">Thành phố</h3>'
+    }
+  });
+});
 </script>

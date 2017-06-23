@@ -15,18 +15,39 @@ var config = {
 var pool = new pg.Pool(config);
 
 var Image = {
+  // getAll: function(callback) {
+  //   // var client = new pg.Client(connectionString);
+  //   // pool.connect(function(err, client, done) {
+  //   //   if (err) throw err;
+  //
+  //   // setTimeout(function() {
+  //   pool.query('select url, name from photo', function(err, result) {
+  //     // done(err);
+  //     callback(err, result.rows);
+  //   });
+  //   // }, 5000);
+  //   // });
+  // },
+
   getAll: function(callback) {
     // var client = new pg.Client(connectionString);
     // pool.connect(function(err, client, done) {
     //   if (err) throw err;
 
     // setTimeout(function() {
-    pool.query("select url, name from photo", function(err, result) {
+    return pool.query('select url, name from photo', function(err, result) {
       // done(err);
       callback(err, result.rows);
     });
     // }, 5000);
     // });
+  },
+
+  search: function(keyword, callback){
+    pool.query("select tenks from khachsan where tentp like '%' || $1 || '%'",[keyword], function(err, result) {
+      // done(err);
+      callback(err, result.rows);
+    });
   }
 };
 
