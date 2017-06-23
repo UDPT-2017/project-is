@@ -1,4 +1,6 @@
-
+body {
+  padding-top: 70px;
+}
 
 .bg-lightgray {
   background-color: LightGray;
@@ -26,6 +28,3 @@
   margin: auto;
   margin-top: 40px;
 }
-
-
-
