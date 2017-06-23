@@ -6,6 +6,7 @@ Thành viên:
 * [x] **1412269** Hà Mạnh Kiệt (KietHa)
 * [x] **1412316** Đặng Nhật Minh (DangNhatMinh96)
 * [x] **1412282** Nguyễn Hoàng Lân (NguyenHoangLan)
+* [x] **1412553** Dương Minh Toàn (tqhb1995)
 
 URL: **URL hosting của bài tập**
 
