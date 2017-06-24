@@ -170,3 +170,14 @@ figcaption a {
 .tt-suggestion p {
   margin: 0;
 }
+
+a.navbar-brand {
+	position: relative;
+	top: -15px;
+	left: 10px;
+}
+
+.navbar-default { 
+background-color: #F2F5A9;  
+border-color: #e7e7e7;}
+
