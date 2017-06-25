@@ -171,6 +171,7 @@ figcaption a {
   margin: 0;
 }
 
+
 @media (min-width: 768px) {
   .searchResults {
     position: relative
@@ -207,39 +208,39 @@ figcaption a {
 }
 
 #txtSDT{
-    
-    background-color: lavender; 
+
+    background-color: lavender;
     border:solid 1px black
 }
 #txtUsername{
-  background-color: lavender; 
+  background-color: lavender;
   border:solid 1px black
 }
 
 
 #boxTitle{
   border: solid 1px black;
-  padding:5px; 
+  padding:5px;
   text-align: center;
   font-weight: bold
 }
 #boxContent{
-    border: solid 1px black; 
-    border-top: none; 
-    padding: 5px; 
+    border: solid 1px black;
+    border-top: none;
+    padding: 5px;
     text-align: center
 }
 #listMessages{
   height:158px;
-  width: 400px; 
-  background-color: #c7f2b0; 
+  width: 400px;
+  background-color: #c7f2b0;
   margin-bottom: 1px;
     overflow: scroll;
     clear: both;
 }
 
 #txtMessage{
-  background-color: lavender; 
+  background-color: lavender;
   border: solid 1px black;
     width: 350px;
 }
@@ -386,3 +387,17 @@ figcaption a {
     display: none;
 }
 
+a.navbar-brand {
+	position: relative;
+	top: -15px;
+	left: 10px;
+}
+
+.navbar-default {
+background-color: #F2F5A9;
+border-color: #e7e7e7;}
+
+img.cangiua {
+display: block;
+margin-left: auto;
+margin-right: auto;}
