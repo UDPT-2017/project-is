@@ -19,6 +19,12 @@ var Hotel = {
     pool.query("select tenks from khachsan where tenks like '%' || $1 || '%'", [key], function(err, result) {
       callback(err, result.rows);
     });
+  },
+
+  getInfoHotel: function(keyword, callback) {
+    pool.query("select tenks, tentp, sosao, mota, url_image from khachsan, cover_hotel where (tenks like '%' || $1 || '%' or tentp like '%' || $1 || '%') and (khachsan.id=cover_hotel.khachsan)", [keyword], function(err, result){
+      callback(err, result.rows);
+    });
   }
 };
 
