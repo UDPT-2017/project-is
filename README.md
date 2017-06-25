@@ -4,7 +4,7 @@
 
 Thành viên:
 * [x] **1412269** - Hà Mạnh Kiệt - KietHa - hamanhkiet77@gmail.com - Tỉ lệ đóng góp cho đề tài 90%
-* [ ] **1412282** - Nguyễn Hoàng Lân - NguyenHoangLan - email - Tỉ lệ đóng góp cho đề tài
+* [x] **1412282** - Nguyễn Hoàng Lân - NguyenHoangLan - hoanglanars96@gmail.com - Tỉ lệ đóng góp cho đề tài 90%
 * [ ] **1412316** - Đặng Nhật Minh - DangNhatMinh96 - email - Tỉ lệ đóng góp cho đề tài
 * [ ] **1412553** - Dương Minh Toàn - tqhb1995 - email - Tỉ lệ đóng góp cho đề tài
 
@@ -47,7 +47,7 @@ Nhấn vào nút tìm kiếm sẽ đưa ra các khách sạn đáp ứng yêu c�
 
 ### Tương tác API khác
 Liệt kê các API nhóm đã sử dụng được ở đây
-* [ ] Facebook API: mô tả (MSSV1)
+* [x] Facebook API: Thêm nút like cho từng bài viết trong trang Cẩm nang du lịch (MSSV1)
 * [ ] Google API: mô tả (MSSV1)
 * [ ] ...
 
