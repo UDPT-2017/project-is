@@ -25,13 +25,10 @@ var homeController = {
   },
 
   search: function(req, res) {
-    Image.search(req.body.keyword, function(err, kq) {
-      Image.getAll(function(err, images) {
-        res.render('home/index', {
-          title: 'Kết quả',
-          hotel: kq,
-          imagesKS: images
-        });
+      Hotel.getInfoHotel(req.body.keyword, function(err, _listHotel){
+        res.render('searchResults/searchResults', {
+        title: req.body.keyword,
+        listHotel: _listHotel
       });
     });
   }

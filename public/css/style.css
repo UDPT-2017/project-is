@@ -170,3 +170,14 @@ figcaption a {
 .tt-suggestion p {
   margin: 0;
 }
+
+@media (min-width: 768px) {
+  .searchResults {
+    position: relative
+  }
+  .searchResults-button {
+    position: absolute;
+    bottom: 8px;
+    right: 15px
+  }
+}
