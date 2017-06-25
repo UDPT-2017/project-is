@@ -6,10 +6,10 @@ Thành viên:
 * [x] **1412269** - Hà Mạnh Kiệt - KietHa - hamanhkiet77@gmail.com - Tỉ lệ đóng góp cho đề tài 90%
 * [x] **1412282** - Nguyễn Hoàng Lân - NguyenHoangLan - hoanglanars96@gmail.com - Tỉ lệ đóng góp cho đề tài 90%
 * [ ] **1412316** - Đặng Nhật Minh - DangNhatMinh96 - email - Tỉ lệ đóng góp cho đề tài
-* [ ] **1412553** - Dương Minh Toàn - tqhb1995 - email - Tỉ lệ đóng góp cho đề tài
+* [x] **1412553** - Dương Minh Toàn - tqhb1995 - duongminhtoan1995@gmail.com - Tỉ lệ đóng góp cho đề tài 50%
 
-URL: **URL hosting của bài tập**
-Báo cáo: **URL Github Page của đề tài**
+URL: **https://isteam.herokuapp.com/**<br />
+Báo cáo: **https://udpt-2017.github.io/project-is/**
 
 ## Yêu cầu
 
