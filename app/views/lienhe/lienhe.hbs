@@ -1,6 +1,9 @@
+<div class = "content">
+
 <h2 style = "text-align :center">
 			  <font face = "cursive" color = '#FF0000'>THÔNG TIN NHÓM</font><br>			  
 </h2>
+<div class="col-lg-3 col-md-3 col-sm-3">
 <table style = "width = 100%", "margin:auto">
 <tr>
 <th> <img alt = "me" src = "\images\team\me.jpg" width = "200" height = "200"></th>
@@ -40,3 +43,17 @@
 	  padding: 20px
 	  }
 	  </style>
+	  <div style='overflow:hidden;height:400px;width:500px;'>
+	 <div id='gmap_canvas' style='height:400px;width:500px;'></div>
+	 <div><small><a href="http://embedgooglemaps.com">embed google maps</a>
+	 </small></div><div><small><a href="https://buywebsitetrafficreviews.org/trafficwebsites/"></a></small></div>
+	 <style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+	 </div><script type='text/javascript'>function init_map()
+	 {var myOptions = {zoom:15,center:new google.maps.LatLng(10.7626391,106.68202680000002),mapTypeId: google.maps.MapTypeId.ROADMAP};
+	 map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+	 marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(10.7626391,106.68202680000002)});
+	 infowindow = new google.maps.InfoWindow({content:'<strong>Địa chỉ liên lạc</strong><br>Đại học khoa học tự nhiên quận 5 TPHCM<br>'});
+	 google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});
+	 infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+	 </div>
+	 </div>
