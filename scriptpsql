@@ -1,0 +1,20 @@
+CREATE TABLE khachsan (
+    id SERIAL PRIMARY KEY,
+    tenks CHARACTER VARYING(100) NOT NULL,
+    tentp CHARACTER VARYING(100) NOT NULL,
+    sosao INT,
+    mota CHARACTER VARYING(500),
+    );
+
+CREATE TABLE photo (
+    id SERIAL PRIMARY KEY,
+    name CHARACTER VARYING(30) NOT NULL,
+    url CHARACTER VARYING(256) NOT NULL
+    );
+    
+CREATE TABLE cover_hotel (
+    id SERIAL PRIMARY KEY,
+    url_image CHARACTER(100),
+    khachsan int REFERENCES khachsan
+    )
+    
