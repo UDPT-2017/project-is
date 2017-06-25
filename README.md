@@ -1,13 +1,16 @@
-# Project - *Name of your app*
+# Project - *Tìm và đặt phòng khách sạn*
 
-**Name of your app** là repository cho đồ án nhóm. Nhóm tối đa 4 thành viên.
+**Tìm và đặt phòng khách sạn** là repository cho đồ án nhóm. Nhóm tối đa 4 thành viên.
 
 Thành viên:
 * [x] **1412269** Hà Mạnh Kiệt (KietHa)
 * [x] **1412316** Đặng Nhật Minh (DangNhatMinh96)
 * [x] **1412282** Nguyễn Hoàng Lân (NguyenHoangLan)
 * [x] **1412553** Dương Minh Toàn (tqhb1995)
-* [ ] **MSSV4** - Tên sinh viên 4 - tên tài khoản github - email - Tỉ lệ đóng góp cho đề tài
+* [x] **1412269** - Hà Mạnh Kiệt - KietHa - hamanhkiet77@gmail.com - Tỉ lệ đóng góp cho đề tài 90%
+* [ ] **1412282** - Nguyễn Hoàng Lân - NguyenHoangLan - email - Tỉ lệ đóng góp cho đề tài
+* [ ] **1412316** - Đặng Nhật Minh - DangNhatMinh96 - email - Tỉ lệ đóng góp cho đề tài
+* [ ] **1412553** - Dương Minh Toàn - tqhb1995 - email - Tỉ lệ đóng góp cho đề tài
 
 URL: **URL hosting của bài tập**
 Báo cáo: **URL Github Page của đề tài**
@@ -23,7 +26,11 @@ Yêu cầu **GIT**
 * [ ] Sử dụng GIT theo Gitflow Workflow.
 
 ## Mô tả nghiệp vụ chung ứng dụng
-Phần mô tả đặt vào đây
+Khách hàng cần tìm kiếm, đặt phòng khách sạn thì truy cập website. Thực hiện tìm kiếm khách sạn bằng form tìm kiếm, khách hàng gõ vào từ khóa tìm kiếm với tiêu chí là tên khách sạn hoặc tên thành phố, chức năng autocomplete sẽ đưa ra các gợi ý cho chúng ta chọn đúng keyword. Lưu ý: gõ đúng với tên chữ in hoa chữ cái đầu tiên, có thể chọn ngày để tìm. Nhấn vào nút tìm kiếm sẽ đưa ra các khách sạn đáp ứng yêu cầu, để xem thông tin chi tiết của từng khách sạn thì click vào nút "Chi tiết" bên cạnh.
+Trên trang chủ còn thể hiện tin tức với các chủ đề như khách sạn, du lịch,...
+Trang liên hệ thể hiện thông tin nhóm.
+Trang Du lịch hiển thị thông tin các tour du lịch sắp tổ chức, các sự kiện,..
+Chức năng chat cho phép website hỗ trợ chat trực tuyến
 
 ## Lập trình server
 ### MVC
@@ -53,7 +60,7 @@ Liệt kê các API nhóm đã sử dụng được ở đây
 
 ## Lập trình client
 * [ ] Kiểm tra dữ liệu (MSSV1)
-* [ ] Animation (MSSV1)
+* [x] Animation (1412269)
 * [ ] Thao tác DOM (MSSV1)
 * [ ] AJAX (MSSV1)
 
