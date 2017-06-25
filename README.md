@@ -27,16 +27,16 @@ Phần mô tả đặt vào đây
 
 ## Lập trình server
 ### MVC
-* [ ] MVC (MSSV1)
-* [ ] Config (MSSV1)
-* [ ] REST routing (MSSV1)
-* [ ] Layout & partial (MSSV1)
+* [x] MVC (MSSV1)
+* [x] Config (MSSV1)
+* [x] REST routing (MSSV1)
+* [x] Layout & partial (MSSV1)
 
 ### Lập trình dữ liệu
 * [ ] Thêm (MSSV1)
 * [ ] Xóa (MSSV1)
 * [ ] Sửa (MSSV1)
-* [ ] Tìm kiếm (MSSV1)
+* [x] Tìm kiếm (MSSV1)
 
 ### Xử lý lỗi
 * [ ] Xử lý lỗi trong cùng trang web (MSSV1)
