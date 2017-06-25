@@ -18,9 +18,13 @@ module.exports = function(app) {
   
   var camnangRouter = Router()
   .get('/',controllers.camnang.index);
+  
+  var khuyenmaiRouter = Router()
+  .get('/',controllers.khuyenmai.index);
  
   app.use('/', homeRouter);
   app.use('/khachsan', khachsanRouter);
   app.use('/lienhe',lienheRouter);
   app.use('/camnang',camnangRouter);
+  app.use('/khuyenmai',khuyenmaiRouter);
 };
