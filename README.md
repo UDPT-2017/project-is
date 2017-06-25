@@ -9,7 +9,7 @@ Thành viên:
 * [ ] **1412553** - Dương Minh Toàn - tqhb1995 - email - Tỉ lệ đóng góp cho đề tài
 
 URL: **https://isteam.herokuapp.com/**<br />
-Báo cáo: **URL Github Page của đề tài**
+Báo cáo: **https://udpt-2017.github.io/project-is/**
 
 ## Yêu cầu
 
